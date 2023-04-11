@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Tech</title>
+
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        bannerbutton: '#289BDE',
+                        courseheader: '#1D1D1D',
+                        explorebg: '#F4FAFD',
+                    },
+                    boxShadow: {
+                        "custom": '0 50px 25px -24px rgb(0 0 0 / 0.3)'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Tailwind Css ends -->
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- Header-Area Start -->
+
+    <header class="container mx-auto flex justify-between items-center py-10">
+        <div class="header-right">
+            <h1 class="text-3xl font-bold">Pro Edu</h1>
+        </div>
+        <div class="header-left ">
+            <nav class="menu-area">
+                <ul class="flex text-1xl font-regular">
+                    <li class="mr-10"><a href="#">Home</a></li>
+                    <li class="mr-10"><a href="#">Courses</a></li>
+                    <li class="mr-10"><a href="#">Deal</a></li>
+                    <li class="mr-10"><a href="#">Success</a></li>
+                    <li class="mr-10"><a href="#">About</a></li>
+                    <li class="mr-10"><a href="#">Register</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div>
+            <button class="text-blue-500 border-solid border-2 border-blue-500 rounded w-24 h-10">Register</button>
+        </div>
+    </header>
+
+    <!-- Header-Area Ends -->
+
+
+
+
+    <main class="container mx-auto">
+
+        <!-- Banner Area Starts -->
+
+        <section class="banner-area flex flex-col justify-center items-center">
+            <div class="text-white text-center">
+                <h1 class="text-6xl font-bold mb-5 leading-[5rem]">Get Started Digital <br> Learning</h1>
+                <p class="text-xl font-light mb-10">It is a long established fact that a reader will be distracted by
+                    the readable <br> content of a page when looking at its layout.</p>
+                <span class="bg-bannerbutton px-14 py-4 rounded font-semibold text-xl"> <button>Get
+                        Started</button></span>
+            </div>
+        </section>
+
+        <!-- Banner Area Ends -->
+
+        <!-- Course Area Starts -->
+
+        <section class="course-area">
+            <div class="course-header flex flex-col justify-center items-center py-20  text-center ">
+
+                <h1 class="text-5xl font-bold leading-[4rem]">Discover Our Popular <br> Courses</h1>
+                <p class="text-lg text-gray-500"> It is a long established fact that a reader will be distracted by the
+                    <br />readable content of a
+                    page when
+                    looking at its layout.
+                </p>
+
+            </div>
+
+            <div class="courses grid grid-cols-2 gap-4">
+                <div class="course flex items-center">
+                    <div class="course-image w-52 h-52">
+                        <img src="images/course/course-1.png" alt="">
+                    </div>
+                    <div class="course-info ml-8">
+                        <h1 class="text-2xl font-semibold mb-3">Fundamental Of UI/UX Design</h1>
+                        <p class="text-light mb-3 text-gray-500">Some quick example text to build on the card title <br>
+                            and make up the bulk of the card.</p>
+                        <h3 class="text-sm text-bannerbutton font-semibold">Price $20</h3>
+                    </div>
+                </div>
+                <div class="course flex items-center">
+                    <div class="course-image w-52 h-52">
+                        <img src="images/course/course-1.png" alt="">
+                    </div>
+                    <div class="course-info ml-8">
+                        <h1 class="text-2xl font-semibold mb-3">Fundamental Of UI/UX Design</h1>
+                        <p class="text-light mb-3 text-gray-500">Some quick example text to build on the card title <br>
+                            and make up the bulk of the card.</p>
+                        <h3 class="text-sm text-bannerbutton font-semibold">Price $20</h3>
+                    </div>
+                </div>
+                <div class="course flex items-center">
+                    <div class="course-image w-52 h-52">
+                        <img src="images/course/course-1.png" alt="">
+                    </div>
+                    <div class="course-info ml-8">
+                        <h1 class="text-2xl font-semibold mb-3">Fundamental Of UI/UX Design</h1>
+                        <p class="text-light mb-3 text-gray-500">Some quick example text to build on the card title <br>
+                            and make up the bulk of the card.</p>
+                        <h3 class="text-sm text-bannerbutton font-semibold">Price $20</h3>
+                    </div>
+                </div>
+                <div class="course flex items-center">
+                    <div class="course-image w-52 h-52">
+                        <img src="images/course/course-1.png" alt="">
+                    </div>
+                    <div class="course-info ml-8">
+                        <h1 class="text-2xl font-semibold mb-3">Fundamental Of UI/UX Design</h1>
+                        <p class="text-light mb-3 text-gray-500">Some quick example text to build on the card title <br>
+                            and make up the bulk of the card.</p>
+                        <h3 class="text-sm text-bannerbutton font-semibold">Price $20</h3>
+                    </div>
+                </div>
+                <div class="course flex items-center">
+                    <div class="course-image w-52 h-52">
+                        <img src="images/course/course-1.png" alt="">
+                    </div>
+                    <div class="course-info ml-8">
+                        <h1 class="text-2xl font-semibold mb-3">Fundamental Of UI/UX Design</h1>
+                        <p class="text-light mb-3 text-gray-500">Some quick example text to build on the card title <br>
+                            and make up the bulk of the card.</p>
+                        <h3 class="text-sm text-bannerbutton font-semibold">Price $20</h3>
+                    </div>
+                </div>
+                <div class="course flex items-center">
+                    <div class="course-image w-52 h-52">
+                        <img src="images/course/course-1.png" alt="">
+                    </div>
+                    <div class="course-info ml-8">
+                        <h1 class="text-2xl font-semibold mb-3">Fundamental Of UI/UX Design</h1>
+                        <p class="text-light mb-3 text-gray-500">Some quick example text to build on the card title <br>
+                            and make up the bulk of the card.</p>
+                        <h3 class="text-sm text-bannerbutton font-semibold">Price $20</h3>
+                    </div>
+                </div>
+                <div class="course flex items-center">
+                    <div class="course-image w-52 h-52">
+                        <img src="images/course/course-1.png" alt="">
+                    </div>
+                    <div class="course-info ml-8">
+                        <h1 class="text-2xl font-semibold mb-3">Fundamental Of UI/UX Design</h1>
+                        <p class="text-light mb-3 text-gray-500">Some quick example text to build on the card title <br>
+                            and make up the bulk of the card.</p>
+                        <h3 class="text-sm text-bannerbutton font-semibold text-white">Price $20</h3>
+                    </div>
+                </div>
+                <div class="course flex items-center">
+                    <div class="course-image w-52 h-52">
+                        <img src="images/course/course-1.png" alt="">
+                    </div>
+                    <div class="course-info ml-8">
+                        <h1 class="text-2xl font-semibold mb-3">Fundamental Of UI/UX Design</h1>
+                        <p class="text-light mb-3 text-gray-500">Some quick example text to build on the card title <br>
+                            and make up the bulk of the card.</p>
+                        <h3 class="text-sm text-bannerbutton font-semibold">Price $20</h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <span class="flex justify-center items-center py-10">
+                <button class="bg-bannerbutton px-14 py-4 rounded font-semibold text-xl">See More Courses</button>
+            </span>
+        </section>
+
+        <!-- Course Area End -->
+
+        <!-- Explore Area Starts -->
+
+        <section class="explore-area">
+            <div class="explores grid grid-cols-5">
+                <div class="explore-image col-span-2">
+                    <img src="" alt="">
+                </div>
+                <div class="explore-info bg-explorebg col-span-3 flex flex-col justify-center">
+                    <div class="w-2/3 flex flex-col justify-center ml-20">
+                        <h1 class="text-4xl font-bold mb-5">Explore The elearning <br> Institute</h1>
+                        <p class="text-sm text-[#777777] leading-7 mb-5">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even
+                            slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
+
+                        </p>
+                        <p class="text-sm text-[#777777] leading-7 mb-6">
+                            Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                            Internet tend to repeat predefined.
+                        </p>
+
+                        <div class="explore-bottom flex gap-6">
+                            <span>
+                                <h1 class="text-4xl font-semibold mb-2">3.2K+</h1>
+                                <p class="text-xl text-[#777777] font-semibold">Online Course</p>
+                            </span>
+                            <span>
+                                <h1 class="text-4xl font-semibold mb-2">600+</h1>
+                                <p class="text-xl text-[#777777] font-semibold">Expert member</p>
+                            </span>
+                            <span>
+                                <h1 class="text-4xl font-semibold mb-2">1k+</h1>
+                                <p class="text-xl text-[#777777] font-semibold">Rating & Review</p>
+                            </span>
+                        </div>
+
+                        <span class="flex justify-start items-center py-8">
+                            <button class="bg-bannerbutton px-8 py-3 rounded font-semibold text-xl text-white">Read
+                                More</button>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Explore Area Ends -->
+
+        <!-- Join Area Starts -->
+
+        <section class="join-area bg-[#289BDE] mt-24 rounded">
+            <div class="joins grid grid-cols-5 h-52">
+                <div class="join-left col-span-4 flex  justify-center items-center">
+                    <div class="">
+                        <h1 class="text-4xl font-semibold text-white mb-5">Ready to join?</h1>
+                        <p class="text-md font-light text-white">It is a long established fact that a reader will be
+                            distracted by the <br> readable content
+                            of a page
+                            when looking at its layout.</p>
+                    </div>
+                </div>
+                <div class="join-right col-span-1 flex items-center justify-center  ">
+                    <button class="px-10 py-3 bg-white rounded ">Register Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join Area Ends -->
+
+        <!-- Team Area Starts -->
+
+        <section class="my-20">
+            <div>
+                <h1 class="text-4xl text-[#1D1D1D] font-bold leading-[50px]">Meet Our Successfull <br> Students</h1>
+                <p class="text-[#777777] my-6">It is a long established fact that a reader will be distracted by the <br> readable content of a page when
+                    looking at its layout.</p>
+            </div>
+
+            <div class="teams grid grid-cols-4 gap-4">
+                <div class="team">
+                    <div class="team-image">
+                        <img src="images/student/student-1.png" alt="">
+                    </div>
+                    <div class="team-info p-4">
+                        <h3 class="text-xl font-bold #4A4A4A">Awlad Hossain</h3>
+                        <p class="text-[#777777]">UIUX Designer</p>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-image">
+                        <img src="images/student/student-2.png" alt="">
+                    </div>
+                    <div class="team-info p-4">
+                        <h3 class="text-xl font-bold #4A4A4A">Awlad Hossain</h3>
+                        <p class="text-[#777777]">UIUX Designer</p>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-image">
+                        <img src="images/student/student-3.png" alt="">
+                    </div>
+                    <div class="team-info p-4">
+                        <h3 class="text-xl font-bold #4A4A4A">Awlad Hossain</h3>
+                        <p class="text-[#777777]">UIUX Designer</p>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-image">
+                        <img src="images/student/student-4.png" alt="">
+                    </div>
+                    <div class="team-info p-4">
+                        <h3 class="text-xl font-bold #4A4A4A">Awlad Hossain</h3>
+                        <p class="text-[#777777]">UIUX Designer</p>
+                    </div>
+                </div>
+            </div>
+            <span class="flex justify-center items-center py-9">
+                <button class="bg-bannerbutton px-8 py-3 rounded font-semibold text-xl text-white">View All</button>
+            </span>
+        </section>
+
+        <section>
+            
+        </section>
+
+
+
+    </main>
+</body>
+
+</html>

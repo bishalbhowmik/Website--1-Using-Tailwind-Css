@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner-area {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/cover/cover-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+
+}
+
+.course {
+    box-shadow: 0 2px 3px 0 rgb(0, 0, 0, 0.1), 0 4px 4px 0 rgb(0, 0, 0, 0.1);
+}
+
+
+/* Explore Images */
+.explore-area {
+    height: 100vh;
+}
+.explore-image {
+    background-image: url("images/working.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   width: 100%;
+   height: 100vh;
+
+}
+
+.explore-image img {}
+
+
+.team {
+    box-shadow: 0 2px 3px 0 rgb(0, 0, 0, 0.1), 0 4px 4px 0 rgb(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.team-image img{
+    width: 100%;
+}

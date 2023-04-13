@@ -41,9 +41,9 @@
 
     <!-- Header-Area Start -->
 
-    <header class="container mx-auto flex justify-between items-center py-10">
+    <header class="container mx-auto flex flex-col lg:justify-between lg:flex-row items-center py-10">
         <div class="header-right">
-            <h1 class="text-3xl font-bold">Pro Edu</h1>
+            <h1 class="text-3xl font-bold mb-7">Pro Edu</h1>
         </div>
         <div class="header-left ">
             <nav class="menu-area">
@@ -58,7 +58,7 @@
             </nav>
 
         </div>
-        <div>
+        <div class="hidden lg:block">
             <button class="text-blue-500 border-solid border-2 border-blue-500 rounded w-24 h-10">Register</button>
         </div>
     </header>
@@ -74,10 +74,10 @@
 
         <section class="banner-area flex flex-col justify-center items-center">
             <div class="text-white text-center">
-                <h1 class="text-6xl font-bold mb-5 leading-[5rem]">Get Started Digital <br> Learning</h1>
-                <p class="text-xl font-light mb-10">It is a long established fact that a reader will be distracted by
-                    the readable <br> content of a page when looking at its layout.</p>
-                <span class="bg-bannerbutton px-14 py-4 rounded font-semibold text-xl"> <button>Get
+                <h1 class="text-2xl lg:text-6xl font-bold mb-5 lg:leading-[5rem]">Get Started Digital <br> Learning</h1>
+                <p class="text-sm lg:text-xl font-light mb-10 w-[60%] mx-auto">It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its layout.</p>
+                <span class="bg-bannerbutton  px-5 py-2 lg:px-14 lg:py-4 rounded font-semibold text-sm lg:text-xl"> <button>Get
                         Started</button></span>
             </div>
         </section>
@@ -89,8 +89,8 @@
         <section class="course-area">
             <div class="course-header flex flex-col justify-center items-center py-20  text-center ">
 
-                <h1 class="text-5xl font-bold leading-[4rem]">Discover Our Popular <br> Courses</h1>
-                <p class="text-lg text-gray-500"> It is a long established fact that a reader will be distracted by the
+                <h1 class="text-2xl lg:text-5xl font-bold lg:leading-[4rem] mb-6">Discover Our Popular <br> Courses</h1>
+                <p class="lg:text-lg text-gray-500"> It is a long established fact that a reader will be distracted by the
                     <br />readable content of a
                     page when
                     looking at its layout.
@@ -98,7 +98,7 @@
 
             </div>
 
-            <div class="courses grid grid-cols-2 gap-4">
+            <div class="courses grid md:grid-cols-1 lg:grid-cols-2 gap-4">
                 <div class="course flex items-center">
                     <div class="course-image w-52 h-52">
                         <img src="images/course/course-1.png" alt="">
@@ -199,15 +199,15 @@
 
         <!-- Explore Area Starts -->
 
-        <section class="explore-area">
-            <div class="explores grid grid-cols-5">
+        <section class="explore-area h-[940px] lg:h-[650px]">
+            <div class="explores grid grid-cols-1 lg:grid-cols-5">
                 <div class="explore-image col-span-2">
-                    <img src="" alt="">
+                    <img class="w-[100%] h-[500px] md:h-[556px] lg:h-[556px]" src="images/working.png" alt="">
                 </div>
-                <div class="explore-info bg-explorebg col-span-3 flex flex-col justify-center">
+                <div class="explore-info bg-explorebg lg:col-span-3 flex flex-col justify-center">
                     <div class="w-2/3 flex flex-col justify-center ml-20">
-                        <h1 class="text-4xl font-bold mb-5">Explore The elearning <br> Institute</h1>
-                        <p class="text-sm text-[#777777] leading-7 mb-5">
+                        <h1 class="text-2xl lg:text-4xl font-bold my-5">Explore The elearning <br> Institute</h1>
+                        <p class="text-sm text-[#777777] lg:leading-7 mb-5">
                             There are many variations of passages of Lorem Ipsum available, but the majority have
                             suffered
                             alteration in some form, by injected humour, or randomised words which don't look even
@@ -215,28 +215,29 @@
                             believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
 
                         </p>
-                        <p class="text-sm text-[#777777] leading-7 mb-6">
+                        <p class="text-sm text-[#777777] lg:leading-7 mb-6">
                             Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
                             Internet tend to repeat predefined.
                         </p>
 
                         <div class="explore-bottom flex gap-6">
                             <span>
-                                <h1 class="text-4xl font-semibold mb-2">3.2K+</h1>
-                                <p class="text-xl text-[#777777] font-semibold">Online Course</p>
+                                <h1 class="text-xl lg:text-4xl font-semibold mb-2">3.2K+</h1>
+                                <p class="text-sm lg:text-xl text-[#777777] font-semibold">Online Course</p>
                             </span>
                             <span>
-                                <h1 class="text-4xl font-semibold mb-2">600+</h1>
-                                <p class="text-xl text-[#777777] font-semibold">Expert member</p>
+                                <h1 class="text-xl lg:text-4xl font-semibold mb-2">600+</h1>
+                                <p class="text-sm lg:text-xl text-[#777777] font-semibold">Expert member</p>
                             </span>
                             <span>
-                                <h1 class="text-4xl font-semibold mb-2">1k+</h1>
-                                <p class="text-xl text-[#777777] font-semibold">Rating & Review</p>
+                                <h1 class="text-xl lg:text-4xl font-semibold mb-2">1k+</h1>
+                                <p class="text-sm lg:text-xl text-[#777777] font-semibold">Rating & Review</p>
                             </span>
                         </div>
 
-                        <span class="flex justify-start items-center py-8">
-                            <button class="bg-bannerbutton px-8 py-3 rounded font-semibold text-xl text-white">Read
+                        <span class="flex justify-start items-center py-5">
+                            <button class="bg-bannerbutton
+                            px-4 py-1 lg:px-8 lg:py-3 rounded font-semibold lg:text-xl text-white">Read
                                 More</button>
                         </span>
                     </div>
@@ -250,9 +251,9 @@
 
         <!-- Join Area Starts -->
 
-        <section class="join-area bg-[#289BDE] mt-24 rounded">
-            <div class="joins grid grid-cols-5 h-52">
-                <div class="join-left col-span-4 flex  justify-center items-center">
+        <section class="join-area bg-[#289BDE] mt-24 rounded ">
+            <div class="joins grid lg:grid-cols-5 h-52 ">
+                <div class="join-left col-span-5 text-center">
                     <div class="">
                         <h1 class="text-4xl font-semibold text-white mb-5">Ready to join?</h1>
                         <p class="text-md font-light text-white">It is a long established fact that a reader will be
@@ -261,8 +262,8 @@
                             when looking at its layout.</p>
                     </div>
                 </div>
-                <div class="join-right col-span-1 flex items-center justify-center  ">
-                    <button class="px-10 py-3 bg-white rounded ">Register Now</button>
+                <div class="join-right col-span-5 flex items-center justify-center  ">
+                    <button class="px-10 py-3 bg-white rounded">Register Now</button>
                 </div>
             </div>
         </section>
@@ -272,7 +273,7 @@
         <!-- Team Area Starts -->
 
         <section class="my-20">
-            <div>
+            <div class="text-center">
                 <h1 class="text-4xl text-[#1D1D1D] font-bold leading-[50px]">Meet Our Successfull <br> Students</h1>
                 <p class="text-[#777777] my-6">It is a long established fact that a reader will be distracted by the
                     <br> readable content of a page when
@@ -280,7 +281,7 @@
                 </p>
             </div>
 
-            <div class="teams grid grid-cols-4 gap-4">
+            <div class="teams grid lg:grid-cols-4 gap-4 text-center">
                 <div class="team">
                     <div class="team-image">
                         <img src="images/student/student-1.png" alt="">
@@ -327,12 +328,12 @@
 
         <section class="py-10">
             <div class="flex flex-col items-center">
-                <h1 class="text-5xl font-bold">Some Students Feedback</h1>
-                <p class="text-xl text-[#777777] my-8 text-center">It is a long established fact that a reader will be
-                    distracted by the readable <br> content of a page when
+                <h1 class=" text-3xl lg:text-5xl font-bold text-center">Some Students Feedback</h1>
+                <p class=" text-regular lg:text-xl text-[#777777] my-8 text-center">It is a long established fact that a reader will be
+                    distracted by the readable content of a page when
                     looking at its layout.</p>
             </div>
-            <div class="grid grid-cols-2 gap-10">
+            <div class="grid lg:grid-cols-2 gap-y-10">
                 <div class="feedback px-8 py-3">
                     <div class="flex justify-between my-7">
                         <span>
@@ -353,7 +354,7 @@
                             available, but <br> the majority have suffered alteration in some form, by injected <br>
                             humour, or randomised words which don't look even slightly <br> believable. If you are going
                             to use a passage of Lorem.</p>
-                        <div class="flex my-7 items-center">
+                        <div class="flex my-7 items-center justify-center">
                             <span class="mr-6 ">
                                 <img src="images/student/student-5.png" alt="">
                             </span>
@@ -385,7 +386,7 @@
                             available, but <br> the majority have suffered alteration in some form, by injected <br>
                             humour, or randomised words which don't look even slightly <br> believable. If you are going
                             to use a passage of Lorem.</p>
-                        <div class="flex my-7 items-center">
+                        <div class="flex my-7 items-center justify-center">
                             <span class="mr-6 ">
                                 <img src="images/student/student-5.png" alt="">
                             </span>
@@ -406,7 +407,7 @@
         <!-- Frequently Asked Question starts -->
 
 
-        <section class="h-[600px] flex flex-col  items-center">
+        <section class="h-[auto] lg:h-[600px] flex flex-col  items-center">
             <div class="text-center">
                 <h1 class="text-5xl font-bold tracking-[1px] my-8">Frequently Asked Questions</h1>
                 <p class="w-[60%] mx-auto my-8 tracking-[1px] leading-[2]">It is a long established fact that a reader
@@ -515,12 +516,12 @@
 
         <!-- Company Area Starts -->
 
-        <section class="h-[300px]">
+        <section class="h-[300px] hidden lg:block">
             <div class="">
                 <h1 class="text-5xl font-semibold text-center my-20">Trusted by over 800+ companies</h1>
             </div>
 
-            <div class="flex justify-evenly">
+            <div class="flex justify-evenly items-center flex-wrap">
                 <span>
                     <img src="images/company/company-1.png" alt="">
                 </span>

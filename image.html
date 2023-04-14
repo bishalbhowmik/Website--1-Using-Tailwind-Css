@@ -1,15 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="area">
 
-    </div>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">
+    <link rel="stylesheet" href="image.css">
+
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        bannerbutton: '#289BDE',
+                        courseheader: '#1D1D1D',
+                        explorebg: '#F4FAFD',
+                    },
+                    boxShadow: {
+                        "custom": '0 50px 25px -24px rgb(0 0 0 / 0.3)'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Tailwind Css ends -->
+
+</head>
+
+<body>
+
+    <!-- Slider html -->
+    <section class="container mx-auto">
+        <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="slide-1">
+                            <!-- <img src="images/cover/cover-1.png" alt="" class="w-[100%]  h-[800px] mx-auto"> -->
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slide-2">
+                            <!-- <img src="images/cover/cover-2.jpg" alt="" class="w-[100%] h-[800px] mx-auto"> -->
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slide-3">
+                            <!-- <img src="images/cover/cover-3.jpg" alt="" class="w-[100%] h-[800px] mx-auto"> -->
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slider html Ends -->
+
+
+
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide');
+            splide.mount();
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 </body>
+
 </html>

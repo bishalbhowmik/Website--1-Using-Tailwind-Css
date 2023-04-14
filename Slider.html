@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
+
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        bannerbutton: '#289BDE',
+                        courseheader: '#1D1D1D',
+                        explorebg: '#F4FAFD',
+                    },
+                    boxShadow: {
+                        "custom": '0 50px 25px -24px rgb(0 0 0 / 0.3)'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Tailwind Css ends -->
+</head>
+
+<body>
+    <section id="portfolio" class="md:p-10 p-3">
+        <div class="mb-10">
+            <h1 class="text-5xl">Portfolio</h1>
+        </div>
+
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="grid md:grid-cols-2 grid-cols-1 bg-white place-items-center">
+                            <div id="websiteDescription"
+                                class="flex flex-col justify-center align-middle p-3 md:ml-20 ml-1">
+                                <h1 class="text-3xl">Freelancing Website</h1>
+                                <p class="mt-4 text-sm">Free resource that will help nderstand thecv designc process and
+                                    improve theroi
+                                    nderstand.</p>
+
+                                <ul class="mt-8 text-sm flex flex-col ml-10">
+                                    <li><i class="fas fa-chevron-right"></i> HTML 5</li>
+                                    <li><i class="fas fa-chevron-right"></i> CSS 3</li>
+                                    <li><i class="fas fa-chevron-right"></i> Git / GitHub</li>
+                                    <li><i class="fas fa-chevron-right"></i> Photoshop</li>
+                                    <li><i class="fas fa-chevron-right"></i> Web Deployment</li>
+                                    <li class="mt-5"><button class="p-2 bg-blue-700 rounded text-white w-full">Visit <i
+                                                class="fas fa-paper-plane"></i></button></li>
+                                </ul>
+                            </div>
+
+                            <div id="websiteImage" class="p-3">
+                                <img src="images/cover/cover-2.jpg" class="w-3/4 border-2 rounded-xl" />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="grid md:grid-cols-2 grid-cols-1 bg-white place-items-center">
+                            <div id="websiteDescription"
+                                class="flex flex-col justify-center align-middle p-3 md:ml-20 ml-1">
+                                <h1 class="text-3xl">Main Home</h1>
+                                <p class="mt-4 text-sm">Free resource that will help nderstand thecv designc process and
+                                    improve theroi
+                                    nderstand.</p>
+
+                                <ul class="mt-8 text-sm">
+                                    <li><i class="fas fa-chevron-right"></i> HTML 5</li>
+                                    <li><i class="fas fa-chevron-right"></i> CSS 3</li>
+                                    <li><i class="fas fa-chevron-right"></i> Git / GitHub</li>
+                                    <li><i class="fas fa-chevron-right"></i> Photoshop</li>
+                                    <li><i class="fas fa-chevron-right"></i> Web Deployment</li>
+                                    <li class="mt-5"><button class="p-2 bg-blue-700 rounded text-white w-full">Visit <i
+                                                class="fas fa-paper-plane"></i></button></li>
+                                </ul>
+                            </div>
+
+                            <div id="websiteImage" class="p-3">
+                                <img src="images/cover/cover-3.jpg" class="w-3/4 border-2 rounded-xl" />
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide');
+            splide.mount();
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+</body>
+
+</html>

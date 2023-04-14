@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Tech</title>
 
+
     <!-- Tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -31,6 +32,9 @@
     <!-- Font Awesome kits -->
     <script src="https://kit.fontawesome.com/adde3bc92e.js" crossorigin="anonymous"></script>
 
+
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
 
@@ -72,13 +76,72 @@
 
         <!-- Banner Area Starts -->
 
-        <section class="banner-area flex flex-col justify-center items-center">
+        <!-- <section class="banner-area flex flex-col justify-center items-center">
             <div class="text-white text-center">
                 <h1 class="text-2xl lg:text-6xl font-bold mb-5 lg:leading-[5rem]">Get Started Digital <br> Learning</h1>
                 <p class="text-sm lg:text-xl font-light mb-10 w-[60%] mx-auto">It is a long established fact that a reader will be distracted by
                     the readable content of a page when looking at its layout.</p>
                 <span class="bg-bannerbutton  px-5 py-2 lg:px-14 lg:py-4 rounded font-semibold text-sm lg:text-xl"> <button>Get
                         Started</button></span>
+            </div>
+        </section> -->
+
+
+        <section class="banner-area rounded">
+            <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="slide-1 flex justify-center items-center rounded">
+
+                                <div class="text-white text-center">
+
+                                    <h1 class="text-2xl lg:text-6xl font-bold mb-5 lg:leading-[5rem]">Get Started
+                                        Digital <br> Learning</h1>
+                                    <p class="text-sm lg:text-xl font-light mb-10 w-[60%] mx-auto">It is a long
+                                        established fact that a reader will be distracted by
+                                        the readable content of a page when looking at its layout.</p>
+                                    <span
+                                        class="bg-bannerbutton  px-5 py-2 lg:px-14 lg:py-4 rounded font-semibold text-sm lg:text-xl">
+                                        <button>Get
+                                            Started</button></span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="slide-2 flex justify-center items-center rounded">
+                               
+                                <div class="text-white text-center">
+                                    <h1 class="text-2xl lg:text-6xl font-bold mb-5 lg:leading-[5rem]">Get Started
+                                        Digital <br> Learning</h1>
+                                    <p class="text-sm lg:text-xl font-light mb-10 w-[60%] mx-auto">It is a long
+                                        established fact that a reader will be distracted by
+                                        the readable content of a page when looking at its layout.</p>
+                                    <span
+                                        class="bg-bannerbutton  px-5 py-2 lg:px-14 lg:py-4 rounded font-semibold text-sm lg:text-xl">
+                                        <button>Get
+                                            Started</button></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="slide-3 flex justify-center items-center rounded">
+                                <div class="text-white text-center">
+                                    <h1 class="text-2xl lg:text-6xl font-bold mb-5 lg:leading-[5rem]">Get Started
+                                        Digital <br> Learning</h1>
+                                    <p class="text-sm lg:text-xl font-light mb-10 w-[60%] mx-auto">It is a long
+                                        established fact that a reader will be distracted by
+                                        the readable content of a page when looking at its layout.</p>
+                                    <span
+                                        class="bg-bannerbutton  px-5 py-2 lg:px-14 lg:py-4 rounded font-semibold text-sm lg:text-xl">
+                                        <button>Get
+                                            Started</button></span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -90,7 +153,8 @@
             <div class="course-header flex flex-col justify-center items-center py-20  text-center ">
 
                 <h1 class="text-2xl lg:text-5xl font-bold lg:leading-[4rem] mb-6">Discover Our Popular <br> Courses</h1>
-                <p class="lg:text-lg text-gray-500"> It is a long established fact that a reader will be distracted by the
+                <p class="lg:text-lg text-gray-500"> It is a long established fact that a reader will be distracted by
+                    the
                     <br />readable content of a
                     page when
                     looking at its layout.
@@ -329,7 +393,8 @@
         <section class="py-10">
             <div class="flex flex-col items-center">
                 <h1 class=" text-3xl lg:text-5xl font-bold text-center">Some Students Feedback</h1>
-                <p class=" text-regular lg:text-xl text-[#777777] my-8 text-center">It is a long established fact that a reader will be
+                <p class=" text-regular lg:text-xl text-[#777777] my-8 text-center">It is a long established fact that a
+                    reader will be
                     distracted by the readable content of a page when
                     looking at its layout.</p>
             </div>
@@ -543,32 +608,37 @@
             </div>
         </section>
 
-          <!-- Company Area Ends -->
+        <!-- Company Area Ends -->
     </main>
 
     <!-- Footer Area Start -->
 
-    <section class="bg-[#000000] py-[40px]">
-        <div class="footer-area text-white">
-            <div class="footer flex flex-col justify-center items-center">
-                
-                <h1 class="text-4xl text-white font-semibold my-5">Pro Edu</h1>
-                <p class="text-center my-2 text-[#E8E8E8]">Office 41, Zawaya Buildin, Ghala Muscat, <br> 
-                    Sultanate of Oman</p>
-                <p class="text-[#E8E8E8]">Privacy Ploicy|Terms of use</p>
-                <span class="flex gap-4 my-3">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    <i class="fa-brands fa-tiktok"></i>
-                </span>              
-            </div>
+    <section class="bg-[#000000] h-[300px]  flex justify-center items-center">
+        <div class="footer-area text-white text-center">
+            <h1 class="text-4xl text-white font-semibold my-5">Pro Edu</h1>
+            <p class="text-center my-2 text-[#E8E8E8]">Office 41, Zawaya Buildin, Ghala Muscat, <br>
+                Sultanate of Oman</p>
+            <p class="text-[#E8E8E8]">Privacy Ploicy|Terms of use</p>
+            <span class="flex gap-4 my-3 text-2xl justify-center">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </span>
+
         </div>
 
-       
+
     </section>
 
- 
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide');
+            splide.mount();
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 </body>
 
 </html>
